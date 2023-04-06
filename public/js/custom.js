@@ -23,4 +23,44 @@ $(document).ready(()=>{
     $("#product").hide();
     $("#product-image").show();
   });
+  $("#work1").mouseover(()=>{
+    $("#overlay").show();
+  }).mouseout(()=>{
+    $("#overlay").hide();
+  });
+  $("#work2").mouseover(()=>{
+    $("#overlay2").show();
+  }).mouseout(()=>{
+    $("#overlay2").hide();
+  });
+  $("#work3").mouseover(()=>{
+    $("#overlay3").show();
+  }).mouseout(()=>{
+    $("#overlay3").hide();
+  });
+  $("#work4").mouseover(()=>{
+    $("#overlay4").show();
+  }).mouseout(()=>{
+    $("#overlay4").hide();
+  });
+  $("#work5").mouseover(()=>{
+    $("#overlay5").show();
+  }).mouseout(()=>{
+    $("#overlay5").hide();
+  });
+  $("#work6").mouseover(()=>{
+    $("#overlay6").show();
+  }).mouseout(()=>{
+    $("#overlay6").hide();
+  });
+  $("#work7").mouseover(()=>{
+    $("#overlay7").show();
+  }).mouseout(()=>{
+    $("#overlay7").hide();
+  });
+  $("#work8").mouseover(()=>{
+    $("#overlay8").show();
+  }).mouseout(()=>{
+    $("#overlay8").hide();
+  });
 });
