@@ -1,22 +1,10 @@
-$(document).ready(function() {
-    $("h1").click(()=> {
-      alert("This is a header.");
-    });
-  
-    $("p").click(() => {
-        $(".walrus-showing").toggle();
-        $(".walrus-hidden").toggle();
-      });
-    $("#green").click(()=>{
-        $("body").removeClass();
-        $("body").addClass("green-background");
-    });
-    $("#yellow").click(()=>{
-        $("body").removeClass();
-        $("body").addClass("yellow-background");
-    });
-    $("#red").click(()=>{
-        $("body").removeClass();
-        $("body").addClass("red-background");
-    });
-    })
+$(document).ready(function(){
+  $("#design-image").click(function(){
+    $("#design-image").slideDown('1500').hide('1000');
+    $("#design").show('1500');
+  });
+  $("#design").click(function(){
+    $("#design").slideUp('1500');
+    $("#design-image").slideDown('1500');
+  });
+});
