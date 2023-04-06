@@ -1,10 +1,26 @@
-$(document).ready(function(){
-  $("#design-image").click(function(){
-    $("#design-image").slideDown('1500').hide('1000');
-    $("#design").show('1500');
+$(document).ready(()=>{
+  $("#design-image").click(()=>{
+    $("#design-image").hide();
+    $("#design").show();
   });
-  $("#design").click(function(){
-    $("#design").slideUp('1500');
-    $("#design-image").slideDown('1500');
+  $("#design").click(()=>{
+    $("#design").hide();
+    $("#design-image").show();
+  });
+  $("#development-image").click(()=>{
+    $("#development-image").hide();
+    $("#development").show();
+  });
+  $("#development").click(()=>{
+    $("#development").hide()
+    $("#development-image").show();
+  });
+  $("#product-image").click(()=>{
+    $("#product-image").hide();
+    $("#product").show();
+  });
+  $("#product").click(()=>{
+    $("#product").hide();
+    $("#product-image").show();
   });
 });
