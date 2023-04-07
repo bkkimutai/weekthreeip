@@ -64,3 +64,25 @@ $(document).ready(()=>{
     $("#overlay8").hide();
   });
 });
+
+const form = document.getElementById("form34A");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+  
+  const nameInput = document.getElementById("MERGE1");
+  const userName = nameInput.value;
+  
+  const message = `Hello ${userName}, we have received your message, and thank you for reaching out to us!`;
+  
+  alert(message);
+
+  // Get the alert box and set its max width and height using CSS
+  const alertBox = document.getElementsByClassName("alert")[0];
+  alertBox.style.maxWidth = "100vw";
+  alertBox.style.maxHeight = "100vh";
+  
+  form.submit();
+});
+
+
